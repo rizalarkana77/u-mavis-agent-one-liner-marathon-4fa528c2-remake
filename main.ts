@@ -11,6 +11,9 @@ const LINE =
 // The joke's loop is self-defeating on purpose: the prize for reaching
 // inbox zero is one more email, so the inbox is at one again the moment
 // the congratulations lands. That is the whole punchline.
+//
+// "Finally" carries the setup by itself: it tells the reader the cleaning
+// took real effort, without spending a clause on the struggle.
 
 // A one-liner must be exactly one line: no embedded newline allowed.
 if (LINE.includes("\n")) {

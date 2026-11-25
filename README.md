@@ -16,6 +16,12 @@ One one-line comedy joke for the [One-Liner Marathon](https://make.fun/bounty/u-
 
 Against the judge's brief: it is a one-line joke with a real punchline (not a caption or slogan); the turn — the congratulations email refilling the inbox you just emptied — is not the obvious first idea; every word earns its place at 91 characters; the voice is a specific, deadpan complaint about email culture rather than a generic line; and it holds up on a second read, because the self-defeating loop (the prize for inbox zero is inbox one) stays funny once you notice it.
 
+The joke also works because the sender is the system itself, not a person: no human is being smug, the software is. That keeps the target small and the complaint relatable — anyone who has ever cleared an inbox knows the exact moment a new message lands and ruins the zero. The line names no brand and no app, so it reads the same for every reader, and the word "finally" does the setup work alone: it tells you the cleaning took effort without spending a clause on it.
+
+## Remake note
+
+This entry is a remake of "Relax (Overdue)", the original submission for this competition, which ranked 1882/2296 in round 2 — outside the top 10 cutoff. The joke here is new and on a different subject (email, not to-do lists), written from scratch for this remake.
+
 ## How it works
 
 `main.ts` (Node standard library only, no network, no dependencies) writes the joke to `$MAKEFUN_OUTPUT_DIR/entry.txt`, then reads the file back and verifies the bytes match exactly. It is fully deterministic: two runs produce byte-identical output.
